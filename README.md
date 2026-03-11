@@ -71,7 +71,7 @@ This project provides an automated solution for synchronizing Docker container i
 ┌─────────────────┐         ┌──────────────────┐         ┌─────────────────┐
 │   Artifactory   │         │   AWS Lambda     │         │    Amazon ECR   │
 │                 │         │                  │         │                 │
-│  Docker Images  │────────▶│  Sync Function   │────────▶│  Docker Images  │
+│  Docker Images  │────────>│  Sync Function   │────────>│  Docker Images  │
 │                 │  HTTP   │                  │  boto3  │                 │
 └─────────────────┘  API    └──────────────────┘  API    └─────────────────┘
                                      │
