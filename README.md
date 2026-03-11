@@ -339,10 +339,6 @@ This is a personal experiment, but contributions are welcome:
 
 **Remember**: Any contributions are also provided without warranty. Contributors assume no liability.
 
-## 📚 Additional Documentation
-
-- [Docker CLI vs ECR API Comparison](DOCKER_VS_ECR_API.md) - Technical deep dive into implementation approaches
-
 ## 📦 Dependencies
 
 This project uses the following third-party libraries and tools:
